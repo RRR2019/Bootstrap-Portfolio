@@ -1,0 +1,85 @@
+.rpg{
+    background: url(../p-img/rpg-pic.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+.game{
+    background: url(../p-img/game-pic.jpg); 
+    width: 200px;
+    height: 200px;
+}
+
+.project1{
+    background: url(../p-img/proj-pic.jpg);
+    width: 200px;
+    height: 200px;
+ 
+}
+
+.project2{
+    background: url(../p-img/proj2-pic.jpg);
+    width: 200px;
+    height: 200px;
+ 
+}
+
+.project3{
+    background: url(../p-img/proj3-pic.jpg);
+    width: 200px;
+    height: 200px;
+}
+.portimages{
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    
+
+    .portimages{
+        display: inline;
+        margin-left: 5em;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .rpg{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+    
+    .game{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+    
+    .project1{
+        width: 150px;
+        height: 150px;
+        float: left;
+     
+    }
+    
+    .project2{
+        width: 150px;
+        height: 150px;
+        float: left;
+     
+    }
+    
+    .project3{
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+
+    .portimages{
+        display: inline-block;
+        
+    }
+  
+}
